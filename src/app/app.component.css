@@ -1,0 +1,25 @@
+button{
+    background-image: url('../assets/button_background.svg');
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 170px;
+    width: 200px;
+    height: 180px;
+    border: none;
+    font-size: 12px;
+    text-align: center;
+}
+
+button:active{
+    background-image: url('../assets/button_background_clicked.svg');
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 170px;
+    width: 200px;
+    height: 180px;
+    border: none;
+    font-size: 12px;
+    text-align: center;
+}

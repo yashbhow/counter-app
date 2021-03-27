@@ -1,0 +1,11 @@
+<div class="container">
+  <header>
+    <h1>Counter-app</h1>
+  </header>
+  <main>
+    <p>current count is : {{count}}</p>
+  </main>
+  <button (click)="resetCounter()">{{'reset counter' | uppercase}}</button>
+  <button (click)="increaseCounter()">{{'increase counter' | uppercase}}</button>
+  <button (click)="decreaseCounter()">{{'decrease counter' | uppercase}}</button>
+</div>
